@@ -429,7 +429,7 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  #footer-end {
+  #f-flex1 {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
