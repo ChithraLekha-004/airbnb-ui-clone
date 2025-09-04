@@ -1,0 +1,39 @@
+*{
+    font-family: "Inter", system-ui;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding:0px 80px;
+}
+#head{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-auto-rows:80px;
+    /* margin:15px 20px 0px 40px; */
+}
+#head-top{
+    display:flex;
+    font-weight:500;
+    font-size: 15px;
+    color: rgb(34,34,34);
+    border: 1px solid red;
+    width:100%;    
+}
+.head-flex{
+    border: 1px solid;
+}
+#head-l{
+    width:500px;
+    background-color: aqua;
+    flex-shrink:2;
+    
+}   
+#head-m{
+    width:500px;
+    background-color: rgb(225, 36, 115);
+}
+#head-r{
+    width:500px;
+    background-color: rgb(46, 226, 40);
+}
